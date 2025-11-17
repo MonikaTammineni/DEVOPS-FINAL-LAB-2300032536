@@ -37,4 +37,4 @@ jobs:
           context: ./reactapp
           file: ./reactapp/frontend.Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/2300032536-final-frontend-2:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/2300032536-final-frontend-1:latest
